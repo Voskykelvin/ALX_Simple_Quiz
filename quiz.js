@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let isCorrect = false;
 
     // 4. Compare User’s Answer with Correct Answer
-    if (userAnswer !== null && userAnswer === correctAnswer) {
+    if (userAnswer === correctAnswer) {
       isCorrect = true;
     }
 
