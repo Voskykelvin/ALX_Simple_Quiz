@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 1. Function Declaration
   function checkAnswer() {
-    // 2. Identify the Correct Answer
     const correctAnswer = '4';
 
     // 3. Retrieve User’s Answer using querySelector for checked radio button
@@ -15,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Get the feedback display element
     const feedbackEl = document.getElementById('feedback');
 
-    // 5. Initialize Validation Variables
     let isCorrect = false;
 
     // 4. Compare User’s Answer with Correct Answer
