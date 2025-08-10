@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
       feedbackEl.textContent = 'Correct! Well done.';
       feedbackEl.style.color = '#28a745';  // green
     } else {
-      feedbackEl.textContent = 'That\'s incorrect. Try again!';
-      feedbackEl.style.color = '#dc3545';  // red
+      feedbackEl.textContent = "That's incorrect. Try again!";
+      feedbackEl.style.color = "#dc3545";  // red
     }
   }
 });
